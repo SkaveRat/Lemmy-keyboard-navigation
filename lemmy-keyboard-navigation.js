@@ -4,6 +4,7 @@
 // @match       https://lemmy.world/*
 // @match       https://lemm.ee/*
 // @match       https://lemmy.ml/*
+// @match       https://discuss.tchncs.de/*
 // @grant       none
 // @version     1.4
 // @author      vmavromatis
@@ -17,8 +18,8 @@ const backgroundColor = '#373737';
 const textColor = 'white';
 
 // Set navigation keys with keycodes here: https://www.toptal.com/developers/keycode
-const nextKey = 'ArrowDown';
-const prevKey = 'ArrowUp';
+const nextKey = 'KeyJ';
+const prevKey = 'KeyK';
 const expandKey = 'KeyX';
 const openCommentsKey = 'KeyC';
 const openLinkKey = 'Enter';
